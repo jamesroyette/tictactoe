@@ -1,0 +1,24 @@
+<h1>Tic Tac Toe</h1>
+<h2>Rules for Tic-Tac-Toe</h2>
+<p>1. The game is played on a grid that's 3 squares by 3 squares.</p>
+<p>2. You are X, your friend is O. Players take turns putting their marks in empty squares.</p>
+<p>3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.</p>
+<p>4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.</p>
+
+<div class="announcement" *ngIf="!gameOver">
+<a>Player {{ currentPlayer }}'s turn</a>
+</div>
+<div class="announcement" *ngIf="gameOver">
+<a *ngIf="winner !== 'Tie'">--------Player {{ winner }} Wins!-------</a>
+<a *ngIf="winner === 'Tie'">-------It's a Tie!-------</a>
+</div>
+
+<div class="board">
+<div class="row" *ngFor="let row of board; let i = index">
+<div class="cell" *ngFor="let cell of row; let j = index" (click)="makeMove(i, j)">
+<span [ngClass]="{'player-x': cell === 'X', 'player-o': cell === 'O'}">{{ cell }}</span>
+</div>
+</div>
+</div>
+<button style="display: block; margin: 0 auto;" (click)="resetBoard()"> Start a New Game </button >
+<button style="display: block; margin: 20px auto 0;"routerLink="/homepage">Back</button> 

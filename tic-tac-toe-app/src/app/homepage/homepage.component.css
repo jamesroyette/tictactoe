@@ -1,0 +1,25 @@
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 100vh; 
+    }
+    
+    h1{
+    border: 8px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: initial;
+    text-align: center;
+    font-size: 6ch;
+    color: red;
+    }
+    
+    button {
+    font-family: cursive;
+    font-size: large;
+    font-weight: bolder;
+    background-color: blue;
+    color: black;
+    }
