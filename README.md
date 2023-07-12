@@ -1,13 +1,16 @@
 # Tic-Tac-Toe
-![tictactoe](https://github.com/jamesroyette/tic-tac-toe/assets/119805275/a4f4786c-d63b-4b0e-ad63-7bc7cb91aa25)<br>
+![tictactoe](https://github.com/jamesroyette/tictactoe/assets/119805275/92d238c8-cb03-4ce1-aeec-72ae0526331e)
+<br>
 Project Description:  
 
 # Agile Methodology
-![image](https://github.com/jamesroyette/tic-tac-toe/assets/119805275/169fb7e1-6bfd-48ff-89fd-4f7510632eac)<br>
+![image](https://github.com/jamesroyette/tictactoe/assets/119805275/a9d7d242-993a-46cf-b46e-70a87cf9d40c)
+<br>
 
 
 # Sustainable Development Goals
-![image](https://github.com/jamesroyette/tic-tac-toe/assets/119805275/7b5ec6e6-73c4-4a2c-b39b-7172f4cd27fe)<br>
+![image](https://github.com/jamesroyette/tictactoe/assets/119805275/2f5531eb-d164-4ed7-b292-69c7b2071a2f)
+<br>
 Quality Education<br>
 
 Since 2000, there has been enormous progress in achieving the target of universal primary education. The total enrollment rate in developing regions reached 91 percent in 2015, and the worldwide number of children out of school has dropped by almost half. There has also been a dramatic increase in literacy rates, and many more girls are in school than ever before. These are all remarkable successes.
